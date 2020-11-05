@@ -18,4 +18,18 @@
 
 .box{
   display: inline-block;
+  position: relative;
+}
+
+.discount{
+  position: absolute;
+  background-color: green;
+  top: 0;
+  right: 0;
+}
+.weaker-discount{
+  position: absolute;
+  background-color: red;
+  top: 0;
+  right: 0;
 }
