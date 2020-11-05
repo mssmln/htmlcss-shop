@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html's line 12 */
+.container{
+  position: relative;
+  width: 1000px;
+  height: 1000px;
+  background-color: red;
+}
+
+.box-first-row{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+}
