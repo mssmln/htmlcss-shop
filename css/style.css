@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-/* html's line 9 */
+/* main container */
 .container{
   width: 1000px;
   height: 1000px;
   margin: 10px;
 }
+/* /main container */
 
-/* html's line 11, 24 */
 .row{
   margin-bottom: 15px;
 }
@@ -19,17 +19,31 @@
 .box{
   display: inline-block;
   position: relative;
+  cursor: pointer;
 }
 
-.discount{
+.box .discount{
   position: absolute;
   background-color: green;
   top: 0;
   right: 0;
 }
-.weaker-discount{
+.box .weaker-discount{
   position: absolute;
   background-color: red;
   top: 0;
   right: 0;
+}
+
+.box .heart{
+  color: red;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  display: none;
+  bottom: 0;
+}
+.box:hover .heart{
+  display: block;
 }
